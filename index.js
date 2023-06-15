@@ -5,8 +5,9 @@ let image = [];
 let ready = false;
 let loadImages = 0;
 let totalImage = 0;
-const apiKey = "jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek";
-// "aHv2UiKnE8p0l0K7XF-zpHPgjzppVpQSau1iCqAgMWA";
+const apiKey = 
+  // "jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek";
+"aHv2UiKnE8p0l0K7XF-zpHPgjzppVpQSau1iCqAgMWA";
 const count = 15;
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
