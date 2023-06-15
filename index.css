@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.imgContainer {
+  margin: 10px 100px;
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.imgContainer img {
+  width: 100%;
+}
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 0.5em;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+  }
+  .imgContainer {
+    margin: 10px 200px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 0.5px;
+  }
+
+  .imgContainer {
+    margin: 10px 50px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  h1 {
+    font-size: 4px;
+    margin-top: 15px;
+    margin-bottom: 0.5px;
+  }
+
+  .imgContainer {
+    margin: 10px 50px;
+  }
+}
